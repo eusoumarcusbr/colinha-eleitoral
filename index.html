@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Monte sua colinha | Pedro Taques 400</title>
+<meta name="description" content="Monte sua colinha para o dia da eleição, na ordem da urna. Pedro Taques, Senador, 400.">
+<meta name="theme-color" content="#2B1574">
+<meta property="og:title" content="Monte sua colinha | Pedro Taques 400">
+<meta property="og:description" content="Anote seus números na ordem da urna e leve a colinha no papel. Para o Senado são 2 votos.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://voudetaques.com.br/colinha/">
+<meta property="og:site_name" content="Pedro Taques 400">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://voudetaques.com.br/colinha/assets/og-colinha.jpg">
+<meta property="og:image:secure_url" content="https://voudetaques.com.br/colinha/assets/og-colinha.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Monte sua colinha. Para o Senado são 2 votos. Pedro Taques 400.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://voudetaques.com.br/colinha/">
+<style>
+/* Tokens do DS da landing de agosto (mesmos da /suafoto). */
+@font-face{font-family:"Qanelas";src:url("fontes/qanelas-semibold.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Qanelas";src:url("fontes/qanelas-heavy.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap}
+@font-face{font-family:"Barlow";src:url("fontes/barlow-light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Barlow";src:url("fontes/barlow-regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Barlow";src:url("fontes/barlow-extrabold.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap}
+
+:root{
+  --pt-amarelo:#FFC000;--pt-azul-marinho:#2B1574;--pt-verde:#009532;--pt-branco:#FFFFFF;
+  --pt-laranja:#F29500;--pt-roxo-azulado:#4431A4;--pt-verde-escuro:#006727;--pt-cinza-escuro:#383838;
+  --pt-azul-acento:#2644B4;--pt-vermelho:#E20016;
+  --pt-cinza-100:#F5F5F3;--pt-cinza-300:#D9D9D6;--pt-cinza-600:#6E6E6E;
+  --color-bg:var(--pt-branco);--color-text:var(--pt-cinza-escuro);--color-heading:var(--pt-azul-marinho);
+  --color-cta-primario:var(--pt-laranja);--color-cta-primario-hover:#D68300;
+  --color-border:var(--pt-cinza-300);--color-alerta:var(--pt-vermelho);
+  --font-display:"Qanelas","Arial Narrow",sans-serif;--font-body:"Barlow","Helvetica Neue",sans-serif;
+  --ls-eyebrow:.14em;--ls-heading:-.01em;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);font-weight:400;font-size:1rem;line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:env(safe-area-inset-bottom)}
+.container{max-width:600px;margin:0 auto;padding:0 max(20px,env(safe-area-inset-left))}
+button,input{font:inherit;color:inherit}
+
+/* hero */
+.hero{background:var(--pt-azul-marinho);color:#fff;padding:32px 0 38px;position:relative;overflow:hidden;text-align:center}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:linear-gradient(to right,var(--pt-verde) 0 33.33%,var(--pt-amarelo) 33.33% 66.66%,var(--pt-azul-acento) 66.66% 100%)}
+.eyebrow{font-weight:300;font-size:.8125rem;letter-spacing:var(--ls-eyebrow);text-transform:uppercase;color:var(--pt-amarelo)}
+.hero-logo{display:block;width:min(300px,72vw);height:auto;margin:18px auto 6px}
+.hero h1{font-family:var(--font-display);font-weight:800;text-transform:uppercase;letter-spacing:var(--ls-heading);line-height:1.05;font-size:clamp(2rem,8.5vw,2.75rem);margin-top:14px}
+.hero p{font-weight:300;font-size:1.0625rem;line-height:1.5;margin:12px auto 0;color:rgba(255,255,255,.86);max-width:42ch}
+
+/* passos */
+.passo{margin-top:34px}
+.passo-tit{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.passo-num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:999px;flex:none;background:var(--pt-amarelo);color:var(--pt-azul-marinho);font-weight:800;font-size:.8125rem}
+.passo-tit span:last-child{font-family:var(--font-display);font-weight:600;text-transform:uppercase;letter-spacing:var(--ls-heading);font-size:1.0625rem;color:var(--color-heading);line-height:1.25}
+
+/* passo 1: senado */
+.destaque{background:var(--pt-cinza-100);border-left:6px solid var(--pt-amarelo);border-radius:4px;padding:16px 18px;margin-bottom:14px}
+.destaque strong{display:block;font-family:var(--font-display);font-weight:800;text-transform:uppercase;color:var(--pt-azul-marinho);font-size:1.25rem;line-height:1.15}
+.destaque span{font-size:.9375rem;font-weight:400}
+.pergunta{font-family:var(--font-display);font-weight:800;text-transform:uppercase;color:var(--pt-azul-marinho);font-size:1.125rem;line-height:1.2;margin:4px 0 12px;display:flex;align-items:center;gap:8px}
+.pergunta svg{width:22px;height:22px;flex:none;stroke:var(--pt-laranja);fill:none;stroke-width:2.4;animation:aponta 1.2s ease-in-out infinite}
+@keyframes aponta{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+.vagas{display:grid;grid-template-columns:1fr;gap:12px}
+@media (min-width:520px){.vagas{grid-template-columns:1fr 1fr}}
+.vaga{position:relative;display:flex;flex-direction:column;gap:12px;padding:16px;border-radius:4px;border:2px solid var(--color-border);background:#fff;cursor:pointer;text-align:left;transition:border-color .15s,background .15s,box-shadow .15s,transform .1s;box-shadow:0 2px 8px rgba(43,21,116,.08)}
+.vaga:hover{border-color:var(--pt-laranja);box-shadow:0 4px 14px rgba(242,149,0,.2)}
+.vaga:active{transform:translateY(1px)}
+.vaga:focus-visible{outline:3px solid var(--pt-laranja);outline-offset:2px}
+.vaga-topo{display:flex;align-items:center;gap:10px}
+.vaga-radio{width:24px;height:24px;border-radius:999px;border:2px solid var(--pt-cinza-600);flex:none;display:flex;align-items:center;justify-content:center;background:#fff}
+.vaga-radio svg{width:14px;height:14px;stroke:#fff;fill:none;stroke-width:3.2;opacity:0}
+.vaga-tit{font-family:var(--font-display);font-weight:800;text-transform:uppercase;color:var(--pt-azul-marinho);font-size:1.125rem;line-height:1.1}
+.vaga-tit small{display:block;font-family:var(--font-body);font-weight:400;text-transform:none;font-size:.8125rem;color:var(--pt-cinza-600);margin-top:2px}
+.mini{display:flex;flex-direction:column;gap:6px;background:var(--pt-cinza-100);border-radius:4px;padding:10px}
+.mini-l{display:flex;align-items:center;gap:6px;font-size:.75rem;font-weight:800;text-transform:uppercase;color:var(--pt-cinza-600);letter-spacing:.02em}
+.mini-l .f{width:26px;height:34px;border-radius:3px;background:var(--pt-cinza-300);flex:none;overflow:hidden}
+.mini-l .f img{width:100%;height:100%;object-fit:cover;display:block}
+.mini-l .r{width:62px;flex:none}
+.mini-l i{font-style:normal;width:24px;height:30px;border-radius:3px;background:#fff;border:1px solid var(--pt-cinza-300);display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:800;font-size:1rem;color:#fff}
+.mini-l.pt{color:var(--pt-verde-escuro)}
+.mini-l.pt i{background:var(--pt-verde);border-color:var(--pt-verde)}
+.vaga-cta{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;border-radius:4px;background:var(--color-cta-primario);color:#fff;font-weight:800;text-transform:uppercase;font-size:.9375rem;letter-spacing:.02em}
+.vaga:hover .vaga-cta{background:var(--color-cta-primario-hover)}
+.vaga[aria-pressed=true]{border-color:var(--pt-verde);background:#F2FAF5;box-shadow:0 0 0 2px var(--pt-verde)}
+.vaga[aria-pressed=true] .vaga-radio{background:var(--pt-verde);border-color:var(--pt-verde)}
+.vaga[aria-pressed=true] .vaga-radio svg{opacity:1}
+.vaga[aria-pressed=true] .vaga-cta{background:var(--pt-verde)}
+.vagas.escolhido .vaga[aria-pressed=false]{opacity:.7}
+.vagas.escolhido .vaga[aria-pressed=false] .vaga-cta{background:transparent;color:var(--pt-azul-marinho);border:2px solid var(--pt-azul-marinho);padding:10px}
+
+/* passo 2: cargos */
+.opcional{font-size:.875rem;color:var(--pt-cinza-600);margin:-6px 0 12px}
+.cargos{display:flex;flex-direction:column;gap:10px}
+.cargo{display:grid;grid-template-columns:52px 1fr;gap:12px;align-items:start;padding:14px;border:1px solid var(--color-border);border-radius:4px;background:#fff}
+.cargo-ord{width:52px;height:72px;border-radius:4px;background:var(--pt-cinza-100);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:800;color:var(--pt-azul-marinho);font-size:1.125rem}
+.cargo-ord img{width:100%;height:100%;object-fit:cover;border-radius:4px;display:block}
+.cargo-nome{font-family:var(--font-display);font-weight:600;text-transform:uppercase;color:var(--pt-azul-marinho);font-size:.9375rem;line-height:1.2}
+.cargo-nome em{font-style:normal;color:var(--pt-cinza-600);font-family:var(--font-body);font-weight:400;text-transform:none;font-size:.8125rem;margin-left:4px}
+.digitos{display:flex;gap:6px;margin-top:8px}
+.dig{width:44px;height:54px;border-radius:4px;border:2px solid var(--color-border);background:var(--pt-cinza-100);text-align:center;font-family:var(--font-display);font-weight:800;font-size:1.625rem;color:var(--pt-azul-marinho);outline:none;-moz-appearance:textfield;padding:0;caret-color:var(--pt-laranja)}
+.dig:focus{border-color:var(--pt-laranja);background:#fff}
+.dig::-webkit-outer-spin-button,.dig::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.apelido{margin-top:8px;width:100%;max-width:300px;border:1px solid var(--color-border);border-radius:4px;padding:8px 10px;font-size:.9375rem;background:#fff;outline:none}
+.apelido:focus{border-color:var(--pt-laranja)}
+.apelido::placeholder{color:#9a9a96}
+.msg{display:none;margin-top:6px;font-size:.8125rem;font-weight:800}
+.msg.ver{display:block}
+.msg.alerta{color:var(--color-alerta)}
+.msg.aviso{color:#B36D00}
+.cargo.pedro{border:2px solid var(--pt-verde);background:#F2FAF5}
+.cargo.pedro .cargo-ord{height:72px;background:none}
+.cargo.pedro .dig{background:var(--pt-verde);border-color:var(--pt-verde);color:#fff}
+.pedro-nome{font-weight:800;text-transform:uppercase;color:var(--pt-verde-escuro);font-size:.9375rem;margin-top:8px;letter-spacing:.02em}
+.ficha{display:none;margin-top:8px;align-items:center;gap:10px;padding:8px 10px;border-radius:4px;background:#F2FAF5;border:1px solid #CFE9D8;max-width:360px}
+.ficha.ver{display:flex}
+.ficha img{width:40px;height:52px;object-fit:cover;border-radius:3px;flex:none;background:var(--pt-cinza-300)}
+.ficha b{display:block;font-weight:800;text-transform:uppercase;color:var(--pt-azul-marinho);font-size:.9375rem;line-height:1.2}
+.ficha small{display:block;font-size:.8125rem;color:var(--pt-cinza-600)}
+.ficha.nao{background:#FFF6E8;border-color:#F6D9A8}
+.ficha.nao b{color:#B36D00;text-transform:none}
+.cargo.erro{border-color:var(--color-alerta)}
+.limpar{margin-top:12px;background:none;border:none;color:var(--pt-cinza-600);text-decoration:underline;font-size:.875rem;cursor:pointer}
+
+/* passo 3: previa */
+.previa{width:100%;max-width:380px;margin:0 auto;border-radius:4px;overflow:hidden;box-shadow:0 6px 24px rgba(43,21,116,.18);border:1px solid var(--color-border);background:#fff}
+.previa canvas{display:block;width:100%;height:auto}
+
+/* botões */
+.acoes{margin-top:22px;display:flex;flex-direction:column;gap:10px}
+.acoes-topo{margin:0 0 18px}
+@media (min-width:920px){.acoes-topo{display:none}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:16px 28px;border-radius:4px;border:none;cursor:pointer;font-family:var(--font-body);font-weight:800;font-size:1rem;text-transform:uppercase;letter-spacing:.02em;transition:background-color .15s ease,transform .1s ease,color .15s}
+.btn:active{transform:translateY(1px)}
+.btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;flex:none}
+.btn--primario{background:var(--color-cta-primario);color:#fff}
+.btn--primario:hover{background:var(--color-cta-primario-hover)}
+.btn--secundario{background:var(--pt-azul-marinho);color:#fff}
+.btn--secundario:hover{background:#200F5C}
+.btn--outline{background:transparent;color:var(--pt-azul-marinho);border:2px solid var(--pt-azul-marinho)}
+.btn--outline:hover{background:var(--pt-azul-marinho);color:#fff}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+#painel-comp{background:var(--pt-cinza-100);border-radius:4px;padding:14px;font-size:.875rem}
+#painel-comp p{font-weight:800;color:var(--pt-azul-marinho);margin-bottom:8px}
+#painel-comp small{display:block;margin-top:8px;color:var(--pt-cinza-600)}
+.redes{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.redes a,.redes button{display:flex;align-items:center;justify-content:center;padding:10px;border-radius:4px;background:#fff;border:2px solid var(--pt-azul-marinho);color:var(--pt-azul-marinho);font-weight:800;text-transform:uppercase;font-size:.8125rem;text-decoration:none;cursor:pointer}
+.redes a:hover,.redes button:hover{background:var(--pt-azul-marinho);color:#fff}
+#dica-galeria{display:none;text-align:center;font-size:.8125rem;font-weight:300;color:var(--pt-cinza-600)}
+#dica-galeria b{font-weight:800;color:var(--pt-cinza-escuro)}
+#aviso{display:none;background:#FFF6E8;border-radius:4px;border-left:6px solid var(--pt-laranja);padding:14px 16px;font-size:.875rem}
+#aviso.grave{background:#FDECEC;border-left-color:var(--color-alerta)}
+#aviso b{font-weight:800}
+.contribuir{display:flex;gap:10px;align-items:flex-start;margin-top:4px;font-size:.8125rem;color:var(--pt-cinza-600);cursor:pointer}
+.contribuir input{width:18px;height:18px;margin-top:2px;accent-color:var(--pt-verde);flex:none}
+
+/* notas */
+.nota{margin:34px 0 20px;background:var(--pt-cinza-100);border-radius:4px;border-left:6px solid var(--pt-verde);padding:18px 20px;font-size:.875rem;color:var(--pt-cinza-600)}
+.nota strong{display:block;font-family:var(--font-display);font-weight:600;text-transform:uppercase;font-size:.9375rem;color:var(--pt-verde-escuro);margin-bottom:4px}
+.nota.alerta{border-left-color:var(--pt-laranja)}
+.nota.alerta strong{color:#B36D00}
+.legal{margin:10px 0 48px;font-size:.6875rem;line-height:1.5;color:var(--pt-cinza-600);text-align:center}
+.oculto{display:none !important}
+#montagem{display:none}
+#montagem.ativo{display:block}
+
+/* tablet e computador: formulário à esquerda, prévia fixa à direita */
+@media (min-width:920px){
+  .container.largo{max-width:1040px}
+  #montagem.ativo{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:48px;align-items:start}
+  .coluna-previa{position:sticky;top:20px}
+  .coluna-previa .passo{margin-top:34px}
+}
+
+/* impressão: só a colinha, em tamanho de bolso */
+#impressao{display:none}
+@media print{
+  @page{size:A4;margin:12mm}
+  body>*:not(#impressao){display:none !important}
+  #impressao{display:block !important;text-align:center}
+  #impressao img{width:90mm;height:auto}
+  #impressao p{font:400 9pt/1.4 Barlow,sans-serif;color:#555;margin-top:4mm}
+}
+</style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7K27WX86XT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7K27WX86XT');
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1067362049011990');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1067362049011990&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="eyebrow">Pedro Taques &middot; Senado 2026</div>
+    <h1>Monte sua colinha</h1>
+    <p>Anote seus números na ordem da urna, salve ou imprima. No dia 4 de outubro, leve a colinha no papel.</p>
+  </div>
+</header>
+
+<main class="container largo">
+
+  <section class="passo" id="passo-vaga">
+    <div class="passo-tit"><span class="passo-num">1</span><span>Para Senado você vota 2 vezes</span></div>
+    <div class="destaque">
+      <strong>São duas vagas para o Senado</strong>
+      <span>Em 2026 você escolhe dois senadores. Em qual dos dois votos vai o <b>Pedro Taques, 400</b>?</span>
+    </div>
+    <p class="pergunta"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></svg>Escolha abaixo onde vai o Pedro Taques</p>
+    <div class="vagas" role="group" aria-label="Voto do Pedro Taques no Senado">
+      <button type="button" class="vaga" data-vaga="1" aria-pressed="false">
+        <span class="vaga-topo"><span class="vaga-radio"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span><span class="vaga-tit">Pedro no 1º voto<small>e escolho outro nome no 2º</small></span></span>
+        <span class="mini"><span class="mini-l pt"><span class="f"><img src="assets/pedro-taques-urna.jpg" alt=""></span><span class="r">1º voto</span><i>4</i><i>0</i><i>0</i></span><span class="mini-l"><span class="f"></span><span class="r">2º voto</span><i></i><i></i><i></i></span></span>
+        <span class="vaga-cta">Escolher 1º voto</span>
+      </button>
+      <button type="button" class="vaga" data-vaga="2" aria-pressed="false">
+        <span class="vaga-topo"><span class="vaga-radio"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span><span class="vaga-tit">Pedro no 2º voto<small>e escolho outro nome no 1º</small></span></span>
+        <span class="mini"><span class="mini-l"><span class="f"></span><span class="r">1º voto</span><i></i><i></i><i></i></span><span class="mini-l pt"><span class="f"><img src="assets/pedro-taques-urna.jpg" alt=""></span><span class="r">2º voto</span><i>4</i><i>0</i><i>0</i></span></span>
+        <span class="vaga-cta">Escolher 2º voto</span>
+      </button>
+    </div>
+  </section>
+
+  <div id="montagem">
+    <div class="coluna-form">
+      <section class="passo">
+        <div class="passo-tit"><span class="passo-num">2</span><span>Anote seus números</span></div>
+        <p class="opcional">Digite o número e o nome do candidato aparece sozinho (base do TSE). Só o voto no Pedro é obrigatório: os outros cargos podem ficar em branco.</p>
+        <div class="cargos" id="cargos"></div>
+        <button type="button" class="limpar" id="limpar">Limpar números</button>
+      </section>
+    </div>
+
+    <div class="coluna-previa">
+      <section class="passo">
+        <div class="passo-tit"><span class="passo-num">3</span><span>Salve sua colinha</span></div>
+        <div class="acoes acoes-topo" id="acoes-topo">
+          <button class="btn btn--primario" data-alvo="baixar"></button>
+          <button class="btn btn--secundario" data-alvo="compartilhar"></button>
+          <button class="btn btn--outline" data-alvo="imprimir"></button>
+        </div>
+        <div class="previa"><canvas id="tela" width="1080" height="1920" aria-label="Prévia da colinha"></canvas></div>
+        <div class="acoes">
+          <div id="aviso"></div>
+          <button class="btn btn--primario" id="baixar">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12M12 16l-5-5M12 16l5-5"/><path d="M4 20h16"/></svg>
+            Baixar colinha
+          </button>
+          <p id="dica-galeria">Na janela que abrir, toque em <b>Salvar Imagem</b>.</p>
+          <button class="btn btn--secundario" id="compartilhar">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3M12 3 7 8M12 3l5 5"/><path d="M4 14v5a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5"/></svg>
+            Compartilhar
+          </button>
+          <div id="painel-comp" class="oculto">
+            <p>Compartilhe o link da colinha:</p>
+            <div class="redes">
+              <a id="r-whats" target="_blank" rel="noopener">WhatsApp</a>
+              <a id="r-x" target="_blank" rel="noopener">X</a>
+              <a id="r-face" target="_blank" rel="noopener">Facebook</a>
+              <button type="button" id="r-copiar">Copiar link</button>
+            </div>
+            <small>Instagram: baixe a colinha e publique a imagem pelo app.</small>
+          </div>
+          <button class="btn btn--outline" id="imprimir">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="1"/><path d="M6 14h12v7H6z"/></svg>
+            Imprimir
+          </button>
+          <label class="contribuir"><input type="checkbox" id="contribuir" checked>
+            <span>Contribuir de forma anônima com os números escolhidos, para melhorar esta ferramenta. Nenhum dado pessoal é enviado.</span></label>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <p class="nota alerta">
+    <strong>Celular não entra na cabine</strong>
+    A lei proíbe celular na hora de votar. A colinha em papel é permitida: imprima ou copie os números à mão antes de sair de casa.
+  </p>
+  <p class="nota">
+    <strong>Sua privacidade</strong>
+    A colinha é montada no seu próprio aparelho. Se a opção de contribuir estiver marcada, o site guarda apenas os números e a ordem escolhida, sem nome, telefone, e-mail ou endereço de IP.
+  </p>
+  <p class="legal" id="legal-texto"></p>
+</main>
+
+<div id="impressao"><img id="img-impressao" alt="Colinha para imprimir"><p>Recorte e leve no dia da eleição.</p></div>
+
+<script>
+(function(){
+  "use strict";
+
+  var W = 1080, H = 1920;
+  var LEGAL = [
+    'COLIGAÇÃO MATO GROSSO PARA TODOS [PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV) / FEDERAÇÃO PSOL REDE(PSOL/REDE)',
+    'ELEICAO 2026 JOSE PEDRO GONCALVES TAQUES SENADOR | CNPJ: 68.499.851/0001-64'
+  ];
+  document.getElementById('legal-texto').textContent = LEGAL.join(' ');
+
+  /* Ordem oficial da urna em 2026 */
+  var CARGOS = [
+    {id:'df',   nome:'Deputada ou deputado federal',  tela:'DEPUTADO(A) FEDERAL',   n:4, base:'df', legenda:true},
+    {id:'de',   nome:'Deputada ou deputado estadual', tela:'DEPUTADO(A) ESTADUAL',  n:5, base:'de', legenda:true},
+    {id:'s1',   nome:'Senadora ou senador · 1º voto', tela:'SENADOR(A) · 1º VOTO',  n:3, senado:1, base:'sen'},
+    {id:'s2',   nome:'Senadora ou senador · 2º voto', tela:'SENADOR(A) · 2º VOTO',  n:3, senado:2, base:'sen'},
+    {id:'gov',  nome:'Governadora ou governador',     tela:'GOVERNADOR(A)',         n:2, base:'gov'},
+    {id:'pres', nome:'Presidente',                    tela:'PRESIDENTE',            n:2, base:'pres'}
+  ];
+  var PEDRO = {numero:'400', nome:'PEDRO TAQUES'};
+
+  var st = {vaga:0, val:{}, apelido:{}, auto:{}};
+  CARGOS.forEach(function(c){ st.val[c.id] = ''; st.apelido[c.id] = ''; });
+
+  var tela = document.getElementById('tela');
+  var ctx = tela.getContext('2d');
+  var elCargos = document.getElementById('cargos');
+  var montagem = document.getElementById('montagem');
+  var aviso = document.getElementById('aviso');
+
+  /* ---------- rastreamento ---------- */
+  function evento(nome, dados){
+    try{ if(window.gtag) gtag('event', nome, dados || {}); }catch(e){}
+    try{ if(window.fbq) fbq('trackCustom', nome, dados || {}); }catch(e){}
+  }
+
+  /* ---------- imagens ---------- */
+  var imgs = {};
+  var faltam = 0;
+  function carregar(chave, src){
+    faltam++;
+    var im = new Image();
+    im.onload = function(){ imgs[chave] = im; faltam--; desenhar(); };
+    im.onerror = function(){ faltam--; avisar('Não consegui carregar <b>' + src + '</b>. Confirme se a pasta "assets" foi enviada junto com o index.html.', true); };
+    im.src = src;
+  }
+  carregar('foto', 'assets/pedro-taques-urna.jpg');
+  carregar('logo', 'assets/logo-branca.png');
+
+  /* ---------- base de candidatos (TSE, dados abertos) ---------- */
+  var BASE = null;
+  var fotosCand = {};
+  fetch('candidatos.json', {cache:'no-cache'})
+    .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .then(function(d){ BASE = d; CARGOS.forEach(function(c){ if(!ehPedro(c)) identificar(c); }); desenhar(); })
+    .catch(function(){});
+
+  /* devolve {tipo:'cand'|'legenda'|'nao', n, p, f} ou null */
+  function buscar(c){
+    if(!BASE) return null;
+    var v = (st.val[c.id] || '').replace(/\s/g, '');
+    if(v !== st.val[c.id]) return null;
+    if(v.length === c.n){
+      var r = BASE.cargos[c.base] && BASE.cargos[c.base][v];
+      if(r && !(c.senado && v === PEDRO.numero)) return {tipo:'cand', n:r.n, p:r.p, f:r.f, url:r.f ? 'fotos/' + c.base + '-' + v + '.jpg' : ''};
+      return {tipo:'nao'};
+    }
+    if(c.legenda && v.length === 2 && BASE.legendas[v]) return {tipo:'legenda', p:BASE.legendas[v]};
+    return null;
+  }
+
+  function fotoCand(url){
+    if(!url) return null;
+    if(fotosCand[url] === undefined){
+      fotosCand[url] = null;
+      var im = new Image();
+      im.onload = function(){ fotosCand[url] = im; agendar(); };
+      im.src = url;
+    }
+    return fotosCand[url];
+  }
+
+  /* mostra nome e foto ao completar o número e preenche o nome sozinho */
+  function identificar(c){
+    var row = elCargos.querySelector('[data-id="' + c.id + '"]');
+    if(!row || ehPedro(c)) return;
+    var ficha = row.querySelector('.ficha');
+    var ap = row.querySelector('.apelido');
+    var ord = row.querySelector('.cargo-ord');
+    var r = buscar(c);
+    var auto = !st.apelido[c.id] || st.auto[c.id];
+    ficha.className = 'ficha';
+    ficha.innerHTML = '';
+    ord.textContent = (CARGOS.indexOf(c) + 1) + 'º';
+    if(r && r.tipo === 'cand'){
+      if(auto){ st.apelido[c.id] = r.n; st.auto[c.id] = true; ap.value = r.n; }
+      ficha.className = 'ficha ver';
+      ficha.innerHTML = (r.url ? '<img src="' + r.url + '" alt="">' : '') + '<span><b></b><small></small></span>';
+      ficha.querySelector('b').textContent = r.n;
+      ficha.querySelector('small').textContent = r.p;
+      if(r.url){ ord.innerHTML = '<img src="' + r.url + '" alt="">'; fotoCand(r.url); }
+    } else if(r && r.tipo === 'legenda'){
+      if(auto){ st.apelido[c.id] = 'Legenda ' + r.p; st.auto[c.id] = true; ap.value = st.apelido[c.id]; }
+      ficha.className = 'ficha ver';
+      ficha.innerHTML = '<span><b></b><small>Voto no partido. Digite os 2 números e aperte Confirma.</small></span>';
+      ficha.querySelector('b').textContent = 'Voto na legenda: ' + r.p;
+    } else {
+      if(st.auto[c.id]){ st.apelido[c.id] = ''; st.auto[c.id] = false; ap.value = ''; }
+      if(r && r.tipo === 'nao'){
+        ficha.className = 'ficha ver nao';
+        ficha.innerHTML = '<span><b>Número não encontrado na lista de candidatos.</b><small>Confira o número. Se estiver certo, escreva o nome abaixo.</small></span>';
+      }
+    }
+  }
+
+  var fontesProntas = false;
+  if(document.fonts && document.fonts.load){
+    Promise.all(['800 40px Qanelas','600 40px Qanelas','300 20px Barlow','400 20px Barlow','800 20px Barlow']
+      .map(function(f){ return document.fonts.load(f); }))
+      .then(function(){ fontesProntas = true; desenhar(); })
+      .catch(function(){ fontesProntas = true; desenhar(); });
+  } else { fontesProntas = true; }
+
+  /* ---------- formulário ---------- */
+  function ehPedro(c){ return c.senado && c.senado === st.vaga; }
+
+  function montarForm(){
+    elCargos.innerHTML = '';
+    CARGOS.forEach(function(c, i){
+      var row = document.createElement('div');
+      row.className = 'cargo' + (ehPedro(c) ? ' pedro' : '');
+      row.dataset.id = c.id;
+
+      var ord = document.createElement('div');
+      ord.className = 'cargo-ord';
+      if(ehPedro(c)){
+        ord.innerHTML = '<img src="assets/pedro-taques-urna.jpg" alt="Pedro Taques">';
+      } else {
+        ord.textContent = (i + 1) + 'º';
+      }
+      row.appendChild(ord);
+
+      var corpo = document.createElement('div');
+      var tit = document.createElement('div');
+      tit.className = 'cargo-nome';
+      tit.innerHTML = c.nome + '<em>' + c.n + ' dígitos</em>';
+      corpo.appendChild(tit);
+
+      var dig = document.createElement('div');
+      dig.className = 'digitos';
+      var valor = ehPedro(c) ? PEDRO.numero : st.val[c.id];
+      for(var k = 0; k < c.n; k++){
+        var inp = document.createElement('input');
+        inp.className = 'dig';
+        inp.type = 'text';
+        inp.setAttribute('inputmode', 'numeric');
+        inp.setAttribute('pattern', '[0-9]*');
+        inp.setAttribute('autocomplete', 'off');
+        inp.maxLength = 1;
+        inp.setAttribute('aria-label', c.nome + ', dígito ' + (k + 1));
+        inp.value = valor.charAt(k) || '';
+        if(ehPedro(c)){ inp.readOnly = true; inp.tabIndex = -1; }
+        dig.appendChild(inp);
+      }
+      corpo.appendChild(dig);
+
+      if(ehPedro(c)){
+        var pn = document.createElement('div');
+        pn.className = 'pedro-nome';
+        pn.textContent = 'Pedro Taques · Senador · 400';
+        corpo.appendChild(pn);
+      } else {
+        var ap = document.createElement('input');
+        ap.className = 'apelido';
+        ap.type = 'text';
+        ap.maxLength = 40;
+        ap.placeholder = 'Nome do candidato (opcional)';
+        ap.value = st.apelido[c.id];
+        ap.setAttribute('aria-label', 'Nome do candidato para ' + c.nome + ', opcional');
+        ap.addEventListener('input', function(){ st.apelido[c.id] = ap.value; st.auto[c.id] = false; agendar(); });
+        var ficha = document.createElement('div');
+        ficha.className = 'ficha';
+        ficha.setAttribute('aria-live', 'polite');
+        corpo.appendChild(ficha);
+        corpo.appendChild(ap);
+        ligarDigitos(c, dig);
+      }
+      var msg = document.createElement('div');
+      msg.className = 'msg';
+      corpo.appendChild(msg);
+
+      row.appendChild(corpo);
+      elCargos.appendChild(row);
+    });
+    CARGOS.forEach(function(c){ if(!ehPedro(c)) identificar(c); });
+    validar();
+  }
+
+  function ligarDigitos(c, box){
+    var campos = box.querySelectorAll('.dig');
+    function ler(){
+      var s = '';
+      for(var i = 0; i < campos.length; i++) s += campos[i].value || ' ';
+      st.val[c.id] = s.replace(/\s+$/, '');
+      identificar(c);
+      validar();
+      agendar();
+    }
+    Array.prototype.forEach.call(campos, function(inp, i){
+      inp.addEventListener('focus', function(){ setTimeout(function(){ if(document.activeElement === inp) inp.select(); }, 0); });
+      inp.addEventListener('input', function(){
+        var d = inp.value.replace(/\D/g, '');
+        if(d.length > 1){ espalhar(d, i); return; }
+        inp.value = d;
+        if(d && i < campos.length - 1) campos[i + 1].focus();
+        ler();
+      });
+      inp.addEventListener('keydown', function(e){
+        if(/^[0-9]$/.test(e.key) && !e.ctrlKey && !e.metaKey){
+          e.preventDefault();
+          inp.value = e.key;
+          if(i < campos.length - 1) campos[i + 1].focus();
+          ler();
+          return;
+        }
+        if(e.key === 'Backspace' && !inp.value && i > 0){ campos[i - 1].value = ''; campos[i - 1].focus(); ler(); e.preventDefault(); }
+        else if(e.key === 'ArrowLeft' && i > 0){ campos[i - 1].focus(); e.preventDefault(); }
+        else if(e.key === 'ArrowRight' && i < campos.length - 1){ campos[i + 1].focus(); e.preventDefault(); }
+      });
+      inp.addEventListener('paste', function(e){
+        var t = ((e.clipboardData || window.clipboardData).getData('text') || '').replace(/\D/g, '');
+        if(t){ e.preventDefault(); espalhar(t, i); }
+      });
+    });
+    function espalhar(d, ini){
+      for(var k = 0; k < d.length && ini + k < campos.length; k++) campos[ini + k].value = d.charAt(k);
+      campos[Math.min(ini + d.length, campos.length - 1)].focus();
+      ler();
+    }
+  }
+
+  /* ---------- validação ---------- */
+  var bloqueado = false;
+  function validar(){
+    bloqueado = false;
+    CARGOS.forEach(function(c){
+      var row = elCargos.querySelector('[data-id="' + c.id + '"]');
+      if(!row || ehPedro(c)) return;
+      var msg = row.querySelector('.msg');
+      var v = st.val[c.id];
+      var limpo = v.replace(/\s/g, '');
+      row.classList.remove('erro');
+      msg.className = 'msg';
+      if(c.senado && limpo === PEDRO.numero){
+        row.classList.add('erro');
+        msg.className = 'msg ver alerta';
+        msg.textContent = 'O 400 já está no outro voto para Senado. A urna não aceita repetir o mesmo candidato: escolha outro nome ou deixe em branco.';
+        bloqueado = true;
+      } else if(v && (limpo.length < c.n || /\s/.test(v)) && !(buscar(c) && buscar(c).tipo === 'legenda')){
+        msg.className = 'msg ver aviso';
+        msg.textContent = 'Faltam dígitos. Se preferir, deixe em branco e complete à mão no papel.';
+      }
+    });
+    ['baixar','compartilhar','imprimir'].forEach(function(id){ document.getElementById(id).disabled = bloqueado; });
+    Array.prototype.forEach.call(document.querySelectorAll('#acoes-topo .btn'), function(b){ b.disabled = bloqueado; });
+  }
+
+  /* ---------- desenho da colinha ---------- */
+  var C = {
+    marinho:'#2B1574', amarelo:'#FFC000', verde:'#009532', verdeEsc:'#006727',
+    acento:'#2644B4', cinza100:'#F5F5F3', cinza300:'#D9D9D6', cinza600:'#6E6E6E', texto:'#383838', laranja:'#F29500'
+  };
+  var QD = '"Qanelas","Arial Narrow",sans-serif';
+  var BD = '"Barlow","Helvetica Neue",sans-serif';
+
+  function rr(x, y, w, h, r){
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+  function espacado(txt, x, y, esp, alinhar){
+    /* letter-spacing manual, compatível com todos os navegadores */
+    var larg = 0, i;
+    for(i = 0; i < txt.length; i++) larg += ctx.measureText(txt[i]).width + (i < txt.length - 1 ? esp : 0);
+    var cx = alinhar === 'center' ? x - larg / 2 : x;
+    ctx.textAlign = 'left';
+    for(i = 0; i < txt.length; i++){ ctx.fillText(txt[i], cx, y); cx += ctx.measureText(txt[i]).width + esp; }
+  }
+  function quebrar(txt, maxW){
+    var palavras = txt.split(' '), linhas = [], atual = '';
+    palavras.forEach(function(p){
+      var t = atual ? atual + ' ' + p : p;
+      if(ctx.measureText(t).width > maxW && atual){ linhas.push(atual); atual = p; } else atual = t;
+    });
+    if(atual) linhas.push(atual);
+    return linhas;
+  }
+  function caber(txt, maxW, fonte, tam){
+    do { ctx.font = fonte.replace('{t}', tam); tam--; } while(ctx.measureText(txt).width > maxW && tam > 14);
+  }
+
+  function desenhar(){
+    if(!fontesProntas) return;
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#fff';
+    ctx.fillRect(0, 0, W, H);
+    ctx.textBaseline = 'alphabetic';
+
+    /* cabeçalho */
+    var cabH = 300;
+    ctx.fillStyle = C.marinho;
+    ctx.fillRect(0, 0, W, cabH);
+    ctx.fillStyle = C.amarelo;
+    ctx.font = '300 30px ' + BD;
+    espacado('PARA NÃO ERRAR NA HORA DO VOTO', W / 2, 88, 5, 'center');
+    ctx.fillStyle = '#fff';
+    ctx.font = '800 118px ' + QD;
+    ctx.textAlign = 'center';
+    ctx.fillText('MINHA COLINHA', W / 2, 205);
+    ctx.font = '400 34px ' + BD;
+    ctx.fillStyle = 'rgba(255,255,255,.88)';
+    ctx.fillText('Eleições 2026 · 1º turno · domingo, 4 de outubro', W / 2, 262);
+    var tri = W / 3;
+    ctx.fillStyle = C.verde;  ctx.fillRect(0, cabH, tri, 12);
+    ctx.fillStyle = C.amarelo; ctx.fillRect(tri, cabH, tri, 12);
+    ctx.fillStyle = C.acento; ctx.fillRect(tri * 2, cabH, W - tri * 2, 12);
+
+    /* linhas de voto */
+    var y0 = 338, rowH = 190, gap = 10, mx = 44;
+    var boxW = 94, boxH = 96, boxGap = 12;
+    var colX = 214;
+    var tagX = W - mx - 58;
+
+    CARGOS.forEach(function(c, i){
+      var y = y0 + i * (rowH + gap);
+      var pedro = ehPedro(c);
+      var valor = pedro ? PEDRO.numero : (st.val[c.id] || '');
+      var achado = pedro ? null : buscar(c);
+      var nome = pedro ? PEDRO.nome : (st.apelido[c.id] || '').trim().toUpperCase();
+      if(nome && achado && achado.tipo === 'cand' && st.auto[c.id]) nome += '  ·  ' + achado.p.toUpperCase();
+      var fotoC = (achado && achado.tipo === 'cand') ? fotoCand(achado.url) : null;
+
+      if(pedro){
+        ctx.fillStyle = '#FFF3CC';
+        rr(mx - 14, y - 6, (c.senado ? tagX - 12 : W - mx + 14) - (mx - 14), rowH + 12, 6);
+        ctx.fill();
+        ctx.fillStyle = C.amarelo;
+        ctx.fillRect(mx - 14, y - 6, 10, rowH + 12);
+      }
+
+      /* coluna esquerda: foto do Pedro ou ordem */
+      var fx = mx + 6, fy = y + 12, fw = 134, fh = rowH - 24;
+      if(pedro && imgs.foto){
+        ctx.save();
+        rr(fx, fy, fw, fh, 6); ctx.clip();
+        var im = imgs.foto, esc = Math.max(fw / im.width, fh / im.height);
+        var dw = im.width * esc, dh = im.height * esc;
+        ctx.drawImage(im, fx + (fw - dw) / 2, fy + (fh - dh) / 2, dw, dh);
+        ctx.restore();
+        ctx.strokeStyle = C.verde; ctx.lineWidth = 4;
+        rr(fx, fy, fw, fh, 6); ctx.stroke();
+      } else if(fotoC){
+        ctx.save();
+        rr(fx, fy, fw, fh, 6); ctx.clip();
+        var esc2 = Math.max(fw / fotoC.width, fh / fotoC.height);
+        var dw2 = fotoC.width * esc2, dh2 = fotoC.height * esc2;
+        ctx.drawImage(fotoC, fx + (fw - dw2) / 2, fy + (fh - dh2) / 2, dw2, dh2);
+        ctx.restore();
+        ctx.strokeStyle = C.cinza300; ctx.lineWidth = 3;
+        rr(fx, fy, fw, fh, 6); ctx.stroke();
+      } else {
+        ctx.fillStyle = C.cinza100;
+        rr(fx, fy, fw, fh, 6); ctx.fill();
+        ctx.fillStyle = C.marinho;
+        ctx.font = '800 64px ' + QD;
+        ctx.textAlign = 'center';
+        ctx.fillText((i + 1) + 'º', fx + fw / 2, fy + fh / 2 + 22);
+      }
+
+      /* rótulo e nome */
+      var maxTxt = (c.senado ? tagX - 20 : W - mx) - colX;
+      ctx.textAlign = 'left';
+      ctx.fillStyle = pedro ? C.verdeEsc : C.marinho;
+      ctx.font = '600 34px ' + QD;
+      ctx.fillText(c.tela, colX, y + 38);
+      if(nome){
+        caber(nome, maxTxt, '800 {t}px ' + BD, 27);
+        ctx.fillStyle = pedro ? C.verdeEsc : C.texto;
+        ctx.fillText(nome, colX, y + 72);
+      }
+
+      /* caixas de dígitos */
+      var by = y + rowH - boxH - 4;
+      for(var k = 0; k < c.n; k++){
+        var bx = colX + k * (boxW + boxGap);
+        ctx.fillStyle = pedro ? C.verde : C.cinza100;
+        rr(bx, by, boxW, boxH, 6); ctx.fill();
+        if(!pedro){ ctx.strokeStyle = C.cinza300; ctx.lineWidth = 3; rr(bx, by, boxW, boxH, 6); ctx.stroke(); }
+        var d = valor.charAt(k);
+        if(d && d !== ' '){
+          ctx.fillStyle = pedro ? '#fff' : C.marinho;
+          ctx.font = '800 72px ' + QD;
+          ctx.textAlign = 'center';
+          ctx.fillText(d, bx + boxW / 2, by + boxH / 2 + 26);
+        }
+      }
+
+      /* tecla confirma */
+      var cfx = colX + c.n * (boxW + boxGap) + 10, cfw = 168, cfh = 62;
+      var cfy = by + (boxH - cfh) / 2;
+      ctx.fillStyle = C.verde;
+      rr(cfx, cfy, cfw, cfh, 6); ctx.fill();
+      ctx.fillStyle = '#fff';
+      ctx.font = '800 28px ' + BD;
+      ctx.textAlign = 'center';
+      ctx.fillText('CONFIRMA', cfx + cfw / 2, cfy + cfh / 2 + 10);
+
+      /* separador */
+      if(i < CARGOS.length - 1 && !pedro && !ehPedro(CARGOS[i + 1])){
+        ctx.fillStyle = C.cinza300;
+        ctx.fillRect(mx, y + rowH + gap / 2 - 1, W - mx * 2 - (c.senado && CARGOS[i + 1].senado ? 70 : 0), 2);
+      }
+    });
+
+    /* etiqueta "2 votos para Senado" ao lado das duas vagas */
+    var sy = y0 + 2 * (rowH + gap) - 6, sh = rowH * 2 + gap + 12;
+    ctx.fillStyle = C.marinho;
+    rr(tagX, sy, 58, sh, 6); ctx.fill();
+    ctx.save();
+    ctx.translate(tagX + 29, sy + sh / 2);
+    ctx.rotate(-Math.PI / 2);
+    ctx.fillStyle = C.amarelo;
+    ctx.font = '800 30px ' + BD;
+    espacado('SENADO: 2 VOTOS', 0, 11, 3, 'center');
+    ctx.restore();
+
+    /* rodapé */
+    var rodY = y0 + 6 * (rowH + gap) + 14;
+    ctx.fillStyle = C.marinho;
+    ctx.fillRect(0, rodY, W, H - rodY);
+    var tri2 = W / 3;
+    ctx.fillStyle = C.verde;  ctx.fillRect(0, rodY, tri2, 10);
+    ctx.fillStyle = C.amarelo; ctx.fillRect(tri2, rodY, tri2, 10);
+    ctx.fillStyle = C.acento; ctx.fillRect(tri2 * 2, rodY, W - tri2 * 2, 10);
+
+    if(imgs.logo){
+      var lw = 460, lh = imgs.logo.height * lw / imgs.logo.width;
+      ctx.drawImage(imgs.logo, (W - lw) / 2, rodY + 34, lw, lh);
+    }
+    ctx.fillStyle = C.amarelo;
+    ctx.font = '800 30px ' + BD;
+    ctx.textAlign = 'center';
+    ctx.fillText('CELULAR NÃO ENTRA NA CABINE. LEVE ESTA COLINHA NO PAPEL.', W / 2, rodY + 218);
+
+    ctx.fillStyle = 'rgba(255,255,255,.78)';
+    ctx.font = '400 17px ' + BD;
+    var ly = rodY + 262;
+    LEGAL.forEach(function(p){
+      quebrar(p, W - 120).forEach(function(l){ ctx.fillText(l, W / 2, ly); ly += 22; });
+    });
+    versao++;
+    clearTimeout(timerArq);
+    timerArq = setTimeout(prepararArquivo, 250);
+  }
+
+  /* Arquivo pronto antes do clique: o iPhone só abre o compartilhamento
+     se a chamada acontecer logo no toque, sem esperar a imagem ser gerada. */
+  var versao = 0, timerArq = 0, arqCache = null, arqVersao = -1;
+  function prepararArquivo(){
+    var v = versao;
+    try{
+      tela.toBlob(function(b){
+        if(b && v === versao){ arqCache = new File([b], NOME, {type:'image/png'}); arqVersao = v; }
+      }, 'image/png');
+    }catch(e){}
+  }
+  function arquivoPronto(){ return (arqCache && arqVersao === versao) ? arqCache : null; }
+
+  var timer = 0;
+  function agendar(){ clearTimeout(timer); timer = setTimeout(function(){ timer = 0; desenhar(); }, 60); }
+
+  /* ---------- passo 1 ---------- */
+  var botoesVaga = document.querySelectorAll('.vaga');
+  Array.prototype.forEach.call(botoesVaga, function(b){
+    b.addEventListener('click', function(){
+      var nova = parseInt(b.dataset.vaga, 10);
+      var primeira = !st.vaga;
+      /* O número digitado na vaga que o Pedro passa a ocupar vai para a outra vaga */
+      if(st.vaga && nova !== st.vaga){
+        var destino = 's' + st.vaga, origem = 's' + nova;
+        st.val[destino] = st.val[origem]; st.apelido[destino] = st.apelido[origem]; st.auto[destino] = st.auto[origem];
+        st.val[origem] = ''; st.apelido[origem] = ''; st.auto[origem] = false;
+      }
+      st.vaga = nova;
+      Array.prototype.forEach.call(botoesVaga, function(o){
+        var sel = o === b;
+        o.setAttribute('aria-pressed', sel ? 'true' : 'false');
+        o.querySelector('.vaga-cta').textContent = sel ? 'Escolhido' : 'Trocar para o ' + o.dataset.vaga + 'º voto';
+      });
+      b.parentNode.classList.add('escolhido');
+      montagem.classList.add('ativo');
+      montarForm();
+      desenhar();
+      evento('colinha_vaga_senado', {vaga: nova});
+      if(primeira){
+        setTimeout(function(){ montagem.scrollIntoView({behavior:'smooth', block:'start'}); }, 60);
+      }
+    });
+  });
+
+  document.getElementById('limpar').addEventListener('click', function(){
+    CARGOS.forEach(function(c){ st.val[c.id] = ''; st.apelido[c.id] = ''; st.auto[c.id] = false; });
+    montarForm(); desenhar();
+  });
+
+  /* ---------- saída ---------- */
+  var NOME = 'colinha-pedro-taques-400.png';
+  var btnBaixar = document.getElementById('baixar');
+  var btnComp = document.getElementById('compartilhar');
+  var btnImp = document.getElementById('imprimir');
+  var dicaGaleria = document.getElementById('dica-galeria');
+  var acoes = btnBaixar.parentNode;
+
+  function avisar(html, grave){
+    aviso.innerHTML = html;
+    aviso.className = grave ? 'grave' : '';
+    aviso.style.display = 'block';
+  }
+  function limparAviso(){ aviso.style.display = 'none'; }
+
+  function pronto(){
+    if(!st.vaga){ avisar('Escolha primeiro em qual voto para Senado vai o Pedro Taques.', true); return false; }
+    if(bloqueado){ avisar('Corrija o voto para Senado marcado em vermelho.', true); return false; }
+    if(faltam > 0 || !imgs.foto){ avisar('A foto ainda está carregando. Aguarde um instante e tente de novo.', true); return false; }
+    limparAviso();
+    if(timer){ clearTimeout(timer); timer = 0; desenhar(); }
+    return true;
+  }
+
+  function gerar(cb){
+    try{
+      if(tela.toBlob){ tela.toBlob(function(b){ cb(b); }, 'image/png'); return; }
+      cb(null);
+    }catch(e){
+      avisar('O navegador bloqueou a exportação porque a página foi aberta direto do computador. No site publicado funciona normalmente.', true);
+      cb(false);
+    }
+  }
+
+  var ehApple = /iP(hone|ad|od)/.test(navigator.userAgent) ||
+                (/Mac/.test(navigator.userAgent) && navigator.maxTouchPoints > 1);
+  var LINK = 'https://voudetaques.com.br/colinha/';
+  var TEXTO = 'Montei minha colinha para o dia 4 de outubro. Para o Senado são 2 votos: um deles é Pedro Taques, 400. Monte a sua: ' + LINK;
+  var podeArquivo = false;
+  try{
+    podeArquivo = !!(navigator.canShare && window.File &&
+      navigator.canShare({files:[new File([new Blob(['x'])], 'x.png', {type:'image/png'})]}));
+  }catch(e){}
+
+  function rotular(btn, texto){
+    var svg = btn.querySelector('svg');
+    btn.textContent = '';
+    if(svg) btn.appendChild(svg);
+    btn.appendChild(document.createTextNode(' ' + texto));
+  }
+  /* iPhone: o download comum cai no app Arquivos, então o 1º botão salva na galeria */
+  if(ehApple){
+    rotular(btnBaixar, 'Salvar na galeria');
+  }
+  /* no celular os 3 botões aparecem também acima da colinha */
+  Array.prototype.forEach.call(document.querySelectorAll('#acoes-topo .btn'), function(b){
+    var alvo = document.getElementById(b.dataset.alvo);
+    b.innerHTML = alvo.innerHTML;
+    b.addEventListener('click', function(){ alvo.click(); });
+  });
+
+  function baixarArquivo(blob){
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = NOME;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 4000);
+  }
+  function abrirImagem(){
+    window.open(tela.toDataURL('image/png'), '_blank');
+    avisar('A colinha abriu em uma nova aba. Segure o dedo sobre ela e escolha <b>Adicionar às Fotos</b>.');
+  }
+  /* usa o arquivo já pronto (toque direto) ou gera na hora */
+  function comArquivo(cb){
+    var f = arquivoPronto();
+    if(f){ cb(f); return; }
+    gerar(function(b){
+      if(b === false) return;
+      cb(b ? new File([b], NOME, {type:'image/png'}) : null);
+    });
+  }
+
+  btnBaixar.addEventListener('click', function(){
+    if(!pronto()) return;
+    registrar('baixar');
+    evento(ehApple ? 'colinha_salvar_galeria' : 'colinha_baixar', {vaga: st.vaga});
+    comArquivo(function(f){
+      if(!f){ abrirImagem(); return; }
+      if(ehApple && podeArquivo){
+        dicaGaleria.style.display = 'block';
+        navigator.share({files:[f]}).catch(function(e){
+          if(e && e.name === 'AbortError') return;
+          abrirImagem();
+        });
+        return;
+      }
+      if(ehApple){ abrirImagem(); return; }
+      baixarArquivo(f);
+    });
+  });
+
+  var painel = document.getElementById('painel-comp');
+  document.getElementById('r-whats').href = 'https://wa.me/?text=' + encodeURIComponent(TEXTO);
+  document.getElementById('r-x').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(TEXTO);
+  document.getElementById('r-face').href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(LINK);
+  document.getElementById('r-copiar').addEventListener('click', function(){
+    var b = this;
+    var ok = function(){ b.textContent = 'Link copiado'; setTimeout(function(){ b.textContent = 'Copiar link'; }, 2000); };
+    if(navigator.clipboard) navigator.clipboard.writeText(LINK).then(ok, function(){ prompt('Copie o link:', LINK); });
+    else prompt('Copie o link:', LINK);
+  });
+  ['r-whats','r-x','r-face'].forEach(function(id){
+    document.getElementById(id).addEventListener('click', function(){ evento('colinha_compartilhar_link', {rede: id.slice(2)}); });
+  });
+
+  btnComp.addEventListener('click', function(){
+    if(!pronto()) return;
+    registrar('compartilhar');
+    evento('colinha_compartilhar', {vaga: st.vaga});
+    var f = arquivoPronto();
+    /* com a imagem: abre a folha do sistema (Instagram, X, WhatsApp...) */
+    if(podeArquivo && f){
+      navigator.share({files:[f], text:TEXTO}).catch(function(e){
+        if(e && e.name === 'AbortError') return;
+        painel.classList.remove('oculto');
+      });
+      return;
+    }
+    if(podeArquivo && !f){
+      /* imagem ainda sendo preparada: tenta de novo em instantes */
+      prepararArquivo();
+      setTimeout(function(){
+        var g = arquivoPronto();
+        if(g){ navigator.share({files:[g], text:TEXTO}).catch(function(e){ if(!e || e.name !== 'AbortError') painel.classList.remove('oculto'); }); }
+        else painel.classList.remove('oculto');
+      }, 400);
+      return;
+    }
+    /* sem suporte a imagem (alguns computadores): mostra as redes com o link */
+    painel.classList.toggle('oculto');
+    painel.scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+
+  /* ---------- registro anônimo no servidor ---------- */
+  var ultimoEnvio = '';
+  function registrar(acao){
+    if(!document.getElementById('contribuir').checked) return;
+    if(location.protocol === 'file:') return;
+    var dados = {v:1, acao:acao, vaga_pedro:st.vaga, votos:{}, nomes:{},
+                 tela:(window.matchMedia && matchMedia('(pointer:coarse)').matches) ? 'toque' : 'mouse'};
+    CARGOS.forEach(function(c){
+      dados.votos[c.id] = ehPedro(c) ? PEDRO.numero : st.val[c.id].replace(/\s/g, '');
+      if(!ehPedro(c) && st.apelido[c.id].trim()) dados.nomes[c.id] = st.apelido[c.id].trim();
+    });
+    var chave = JSON.stringify([dados.vaga_pedro, dados.votos, dados.nomes]);
+    if(chave === ultimoEnvio) return;
+    ultimoEnvio = chave;
+    var corpo = JSON.stringify(dados);
+    try{
+      if(navigator.sendBeacon){
+        navigator.sendBeacon('salvar.php', new Blob([corpo], {type:'text/plain'}));
+      } else {
+        fetch('salvar.php', {method:'POST', body:corpo, keepalive:true, headers:{'Content-Type':'text/plain'}}).catch(function(){});
+      }
+    }catch(e){}
+  }
+
+  btnImp.addEventListener('click', function(){
+    if(!pronto()) return;
+    try{
+      document.getElementById('img-impressao').src = tela.toDataURL('image/png');
+    }catch(e){
+      avisar('O navegador bloqueou a impressão porque a página foi aberta direto do computador. No site publicado funciona normalmente.', true);
+      return;
+    }
+    registrar('imprimir');
+    evento('colinha_imprimir', {vaga: st.vaga});
+    setTimeout(function(){ window.print(); }, 150);
+  });
+
+  if(location.protocol === 'file:'){
+    avisar('Você abriu o arquivo direto do computador. A montagem funciona, mas o navegador bloqueia baixar e imprimir nesse modo. No site publicado funciona normalmente.');
+  }
+})();
+</script>
+</body>
+</html>

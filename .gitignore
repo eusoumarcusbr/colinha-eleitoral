@@ -1,0 +1,8 @@
+# dados gravados pelo salvar.php
+dados/*.jsonl
+# chave do resumo.php
+config.local.php
+# arquivos do TSE (têm CPF e e-mail dos candidatos) e anotações internas
+planilhas/
+._*
+.DS_Store
